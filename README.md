@@ -2,7 +2,7 @@
 
 This repository was created for a place to store all scripts that I've tweaked or created.
 
-*smartctl.sh*
+**smartctl.sh**
 
 smartctl.sh is a script created to output HDD information listed by smartctl.
 
