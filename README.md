@@ -17,4 +17,6 @@ This script will output whether the HDD in the machine is a HDD or SSD.
 
 The script references disk0 and checks whether SSD is mentioned at all within it, if not, the machine is deemed to have an HDD.
 
+This script has been useful for me as to not placed smartctl (the script above) on SSD machines as they cannot have reallocated bad sectors or pending bad sectors like HDDs can.
+
 This script has been tweaked from the original by stevewood, https://jamfnation.jamfsoftware.com/discussion.html?id=8931.
