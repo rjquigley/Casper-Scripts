@@ -10,3 +10,11 @@ smartctl will need to be placed in /usr/bin (10.6 - 10.10) or /usr/local/sbin (1
 
 This script will then output three things, if one of the following is wrong (Reallocated Bad Sectors, Pending Bad Sectors, Checksum Errors)
 or output (OK) is there is nothing wrong.
+
+**hddorssd.sh**
+
+This script will output whether the HDD in the machine is a HDD or SSD.
+
+The script references disk0 and checks whether SSD is mentioned at all within it, if not, the machine is deemed to have an HDD.
+
+This script has been tweaked from the original by stevewood, https://jamfnation.jamfsoftware.com/discussion.html?id=8931.
